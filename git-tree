@@ -1,0 +1,3 @@
+Run this command to edit the global ~/.gitconfig file. This will add an alias for 'git tree', for displaying a tree-like view of commits in terminal.
+
+git config --global alias.tree "log --graph --decorate --pretty=oneline --abbrev-commit"
